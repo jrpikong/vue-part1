@@ -1,0 +1,219 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    color: #5a5a5a;
+    padding-top: 140px;
+    background-color: #f8f8f8;
+    height: 100%; /* needed for container min-height */
+    margin-bottom: 60px;
+}
+
+/*nav-bar*/
+.header-top{
+    /*background-color: #1DE9B6;*/
+    /*border-color: #00BFA5;*/
+    background: #3BE9B1;
+    background: -moz-linear-gradient(left, #3BE9B1 0%, #00BFA5 100%);
+    /*background: -webkit-gradient(left top, right top, color-stop(0%, #8dfc9d), color-stop(100%, #0ed2ab));*/
+    background: -webkit-linear-gradient(left, #3BE9B1 0%, #00BFA5 100%);
+    background: -o-linear-gradient(left, #3BE9B1 0%, #00BFA5 100%);
+    background: -ms-linear-gradient(left, #3BE9B1 0%, #00BFA5 100%);
+    background: linear-gradient(to left, #3BE9B1 0%, #00BFA5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1DE9B6', endColorstr='#00BFA5', GradientType=1 );
+}
+.navbar-default{
+    background-color: #FFFFFF;
+}
+.navbar-brand{
+    height: 75px;
+}
+.navbar-right>li>a{
+    color: #FFFFFF!important;
+    background: transparent !important;
+    border-bottom: solid 1px #FFFFFF;
+}
+.navbar-right>.active>a{
+    color: #FFFFFF!important;
+    background: transparent !important;
+    border-bottom: solid 1px #00BFA5;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #00BFA5;
+    background-color: transparent;
+    border-bottom: solid 1px #00BFA5;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;
+}
+.dropdown-avatar a{
+    border-bottom: none !important;
+}
+img.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    color: #00BFA5;
+    background-color: transparent;
+    border-bottom: solid 2px #00BFA5;
+}
+/*end nav-bar*/
+/*form*/
+.form-control{
+    border-radius: 0;
+}
+.btn{
+    border-radius: 0;
+    border-bottom: 3px;
+    border-bottom-color: #00BFA5;
+}
+.btn-primary{
+    background-color: #00BFA5;
+    border-color:#00BFA5;
+    border-bottom: solid 4px #1DE9B6;
+}
+.btn-primary:hover{
+    background-color: #1DE9B6;
+    border-color:#00BFA5;
+}
+/*end form*/
+
+/*panel*/
+.panel-default>.panel-heading{
+    background-color: #1DE9B6;
+    color: #ffffff;
+}
+.panel{
+    border-radius: 0;
+}
+.panel-heading{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+/*end panel*/
+
+/* Profile container */
+.profile {
+    margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+ul.star{
+    padding: 0;
+    position: relative;
+}
+ul.star>li{
+    list-style-type: none;
+    font-size: 16px;
+}
+ul.star> li .active{
+    color: #00BFA5;
+}
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+}
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #5b9bd1;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+}
+/*End Profile Dhasboar*/
+footer{
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
